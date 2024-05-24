@@ -12,6 +12,6 @@ authors = ["WhatADumb"]
 greeting=[]
 farewell=[]
 communication=["greeting", "farewell"]
-default=["communicatin"]
+default=["communication"]
 
 [dependencies]
