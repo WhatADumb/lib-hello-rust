@@ -8,4 +8,10 @@ authors = ["WhatADumb"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[features]
+greeting=[]
+farewell=[]
+communication=["greeting", "farewell"]
+default=["communicatin"]
+
 [dependencies]
